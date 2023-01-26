@@ -1,0 +1,27 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "paths": { 
+      "@src/*": ["./src/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@commons/*": ["./src/commons/*"],
+      "@screens/*": ["./src/screens/*"],
+      "@constants/*": ["./src/constants/*"],
+      "@core-ui/*": ["./src/core-ui/*"],
+      "@navigations/*": ["./src/navigations/*"],
+
+     
+      "@commons": ["./src/commons/index"],
+      "@screens": ["./src/screens/index"],
+      "@constants": ["./src/constants/index"],
+      "@core-ui": ["./src/core-ui/index"],
+      "@navigations": ["./src/navigations/index.js"],
+    }
+  },
+  "include": ["src/types", "index.d.ts"],
+  "exclude": ["node_modules", "dist"]
+}
