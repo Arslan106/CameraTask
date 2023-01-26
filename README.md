@@ -9,7 +9,7 @@ Installation
 Make sure you have React Native and npm installed on your machine.
 Clone the repository to your local machine
 Copy code
-git clone https://github.com/Arslan106/CameraTask.g
+git clone https://github.com/Arslan106/CameraTask.git
 
 Navigate to the project directory
 Copy code
